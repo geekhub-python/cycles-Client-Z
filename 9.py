@@ -4,7 +4,7 @@
 import string
 
 alphabet, i = string.ascii_lowercase, 0
-symbol = input('Enter symbol: ')
+symbol = input('Enter symbol: ').lower()
 i = alphabet.find(symbol)
 
 if(symbol == 'z'):
